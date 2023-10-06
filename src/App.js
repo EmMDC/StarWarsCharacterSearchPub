@@ -5,7 +5,6 @@ import Title from './Title.js'
 import Entry from './Entry.js'
 import Info from './info.js'
 import { getCharacter } from './api.js'
-import Dancing from './Dancing.gif'
 
 //main app content
 export default function App() {

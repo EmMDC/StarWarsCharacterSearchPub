@@ -1,4 +1,4 @@
-## Components
+## Components ##
 
 The application is divided into several components:
 
@@ -22,3 +22,12 @@ The application has a few limitations:
 
 - **Partial Search**: When a user partially spells out a name, the application will search for the first character in the API data structure that includes the provided string. The search result, similar to the priority search, depends on the API's data order. For precise results, it's recommended to use the full character name or a unique identifier.
 
+## API ##
+The API that was used was the swapi api which is a star wars api for the frist 6 movies
+
+- **Link**: https://swapi.dev/documentation
+
+- **Link to Web App**: https://star-wars-character-search-77d330ejg-emmdcs-projects.vercel.app
+
+**Quick Note**: An image is there it just appears after an input is selected. This was just a fun design choice similar to confetti after a user inputs something.
+  
