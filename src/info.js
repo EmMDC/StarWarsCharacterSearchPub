@@ -1,4 +1,5 @@
 //display character information based on data name and data
+import Dancing from './Dancing.gif'
 export default function Info({ name, data }) {
   return !data || !name ? (
     <div></div> //empty so no box appears before an input is displayed
@@ -14,6 +15,7 @@ export default function Info({ name, data }) {
       <p>Height: {data.height} cm</p>
       <p>Mass: {data.mass} kg</p>
       <p>Skin Color: {data.skin_color}</p>
+      <img src={Dancing} alt="Dancing Darth Vader" className="center" />
     </div>
   )
 }

@@ -47,7 +47,6 @@ export default function App() {
       {loading && <div className="loader"></div>}
 
       {error ? <span>Something went wrong.</span> : <Info name={name} data={data} />}
-      <img src={Dancing} alt="Dancing Darth Vader" className="center" />
     </div>
   )
 }
